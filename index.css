@@ -1,0 +1,92 @@
+/*大标题：居中，字间距4px*/
+h1{
+    font-family: '宋体';
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 250px;
+}
+/*文本行高2倍，字间距2px*/
+p{
+    line-height: 200%;
+    letter-spacing: 2px;
+    margin: 100px 100px;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
+/*音频*/
+audio{
+    margin: 40px 0px;
+    width: 100%;
+    background: none;
+}
+/*主内容：包含图片轮播区域和文本区域*/
+#main{
+    height: 440px;
+}
+
+/*图片轮播区域：左浮动*/
+.banner {
+    width: 560px;
+    height: 420px;
+    position: relative;
+    margin: 50px;
+    float: left;
+}
+.banner .wrap {
+    width: 100%;
+}
+.banner .wrap .item {
+    width: 100%;
+}
+.item img {
+    width: 560px;
+    height: 420px;
+    vertical-align: top;
+    position: absolute;
+}
+.div1 {                                 /*左按钮*/
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    cursor: pointer;
+    width: 41px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.div2 {                                 /*右按钮*/
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    cursor: pointer;
+    width: 41px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.pagenation {                           /*小圆点*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    bottom: 40px;
+}
+.pagenation>div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pagenation>div:last-child {
+    margin-right: 0;
+}
