@@ -1,6 +1,6 @@
 杨瑷玮个人网络设计说明文档
 
-访问地址（适配于联想浏览器）： https://aiwer0307.github.io/aiwer.github.io/
+访问地址（适配于chrome和联想浏览器，其他浏览器通过ctrl+滚动鼠标滑轮调整页面）： https://aiwer0307.github.io/aiwer.github.io/
 
 一共五个网页，包括一个主页面index.html，和四个子页面food.html、hobby.html、photos.html和jianli.html。子页面位于同一个文件夹下，主页面和HBF.css位于父文件夹下，每个页面都有对应的.css文件。
 
