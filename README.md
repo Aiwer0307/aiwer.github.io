@@ -1,4 +1,5 @@
 杨瑷玮个人网络设计说明文档
+
 访问地址（适配于联想浏览器）： https://aiwer0307.github.io/aiwer.github.io/
 
 一共五个网页，包括一个主页面index.html，和四个子页面food.html、hobby.html、photos.html和jianli.html。子页面位于同一个文件夹下，主页面和HBF.css位于父文件夹下，每个页面都有对应的.css文件。
@@ -18,6 +19,7 @@ index.css文件中定义了大标题、音频、图片和文字的修饰，并�
 (3)jianli.html、jianli.css
 个人简历jianli.html子页面设计较简单，只包含了一张表格和一个返回链接，主要展示我的个人信息。
 jianli.css文件中使用了合并、居中等元素，定义了表格的字体、字体大小、单元格、行距等属性，并设置了图片的大小、位置等，用于修饰表格，使其协调、美观。
+
 ![image](https://github.com/Aiwer0307/aiwer.github.io/assets/167310937/7b95215a-4d19-452e-87f9-d2aebbd368bd)
 ![image](https://github.com/Aiwer0307/aiwer.github.io/assets/167310937/16074fbe-a188-4481-9097-b1ff8ffb9e79)
 
