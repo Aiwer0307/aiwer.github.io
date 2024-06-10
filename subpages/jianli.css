@@ -1,0 +1,60 @@
+body{
+	width: 100%;
+	flex: 1;
+	z-index: 100px;
+	background-image: url('../img/background.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	color: white;
+	margin: 0;
+  }
+img{
+    width: 350px;
+    height: 200px;
+}
+.main{
+    margin: 50px 260px;
+}
+/*超链接：右浮动*/
+#Hnav a{
+    margin-right: 40px;
+	text-decoration: none;
+	color: pink;
+	font-size: 20px;
+    float: right;
+}
+
+/*表格：文字居中*/
+.biaoge{
+    text-align: center;
+    caption-side: 10px;
+    font-size: 17px;
+}
+.biaoge thead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.biaoge th{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+}
+.biaoge td{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+}
+
+/*页脚：文字居中，字间距2px，行高1.5倍，有阴影*/
+footer {
+	margin: 0;
+	padding: 0;
+	height: 100px;
+}
+footer .Fnav{
+	float: center;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: 2px;
+	line-height: 150%;
+	margin-top: 100px;
+}

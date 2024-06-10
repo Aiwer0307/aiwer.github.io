@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>AIWER</title>
+    <link rel="stylesheet" href="../HBF.css">
+    <link rel="stylesheet" href="./food.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+</head>
+
+<body>
+  <header>  <!--页眉-->
+    <div class="Hlogo"> <img src="../img/zhuangshi1.gif" width="auto" height="90%"><img src="../img/yaw.jpg" width="100px"></div>
+    <div class="Hnav">
+        <div class="box4"><a href="../subpages/photos.html">here is 随拍</a></div>
+        <div class="box3"><a href="../subpages/hobby.html">我de生活</a></div>
+        <div class="box2"><a href="../subpages/food.html">美食&回忆</a></div>
+       <div class="box1"><a href="../index.html">-Me-</a></div>
+    </div>
+  </header>
+
+  <!--主内容，包含三个区域mmm、aaa、ddd-->
+  <div id="main">
+    <!--第一个区域，包含图片和文字区txt-->
+    <div id="mmm">
+        <img src="../img/food1.jpg" alt="">
+        <div class="txt">
+            <li>火锅烧烤 yyds</li>
+            <p>天大地大，吃饭最大。我喜欢在夏天吃热闹街边的烧烤，冬天吃热气腾腾的火锅。这个世界上不能没有麻辣和鲜香，不能没有冰爽可口的气泡水。因为只有重口味，才能解决掉我的馋虫[>﹃<]。</p>
+        </div>
+    </div>
+    <!--第二个区域，包含图片和文字区txt-->
+    <div id="aaa">
+        <img src="../img/food2.jpg" alt="">
+        <div class="txt">
+            <li>聚餐！聚餐！</li>
+            <p>最最最开心的，就是和家人、朋友一起聚餐啦！不论是准备一大桌家常菜，还是在外面逛吃逛吃，大家围在一起，谈天说地，其乐融融。这种美好、温馨的时光，我真的很想很想一直拥有。</p>
+        </div>
+    </div>
+    <!--第三个区域，包含图片和文字区txt-->
+    <div id="ddd">
+        <img src="../img/food3.jpg" alt="">
+        <div class="txt">
+            <li>甜品 or 奶茶？</li>
+            <p>甜品和奶茶，可以兼得。色彩缤纷的糖果、软软糯糯的蛋糕，还有喝一口就会满足感爆棚的啵啵奶茶，甜甜的味道可以让一整天都开心。喜欢上甜甜，是一件非常容易的事情！</p>
+        </div>
+    </div>
+  </div>
+  <!--第四个区域，表单区-->
+    <div id="eee">
+        <table align="center">
+        <form action="#" method="POST"> <!--表单通过form实现-->
+        <thead> <!--表头-->
+            <tr>
+                <th colspan="3"><h3>交个朋友吧~</h3></th>
+            </tr>
+        </thead>
+        <tbody> <!--表身-->
+            <tr>
+                <td colspan="3"><hr color="grey" width="700" size="1"></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>    <!--填入内容通过input（text）实现-->
+                <td align="right">你的名字：</td>
+                <td><input type="text" maxlength="6" placeholder="请输入姓名" required></td>
+                <td align="right"><font color='black'>姓名长度最多不超过6个字符</font></td>
+            </tr>
+            <tr>    <!--单项选择通过input（radio）实现-->
+                <td align="right">你的性别：</td>
+                <td><input type="radio" name="sex" id="s1"><label for="s1">男</label>&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="sex" id="s2"><label for="s2">女</label></td>
+            </tr>
+            <tr>    <!--日历通过input（date）实现-->
+                <td align="right">出生日期：</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>    <!--多项选择通过checkbox实现-->
+                <td align="right">喜欢的食物：</td>
+                <td><input type="checkbox" id="a1"><label for="a1">火锅</label>
+                    <input type="checkbox" id="2"><label for="a2">烧烤</label>
+                    <input type="checkbox" id="a3"><label for="a3">炒菜</label>
+                    <input type="checkbox" id="a4"><label for="a4">甜品</label>
+                    <input type="checkbox" id="a5"><label for="a5">快餐</label>
+                    <input type="checkbox" id="a6"><label for="a6">粉面馍</label> </td>
+                <td align="right"><font color='black'>至少选择三项 </font></td>
+            </tr>
+            <tr>    <!--下拉选择通过select实现-->
+                <td align="right">邮箱类型：</td>
+                <td><select><option value="">--邮箱类型--</option>
+                    <option value="">QQ邮箱</option>
+                    <option value="">网易邮箱</option>
+                    <option value="">outlook邮箱</option></select></td>
+            </tr>
+            <tr>    <!--填入内容-->
+                <td align="right">邮箱账号：</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>    <!--文本区域通过textarea实现-->
+                <td align="right">请分享你的 <br>幸福回忆：</td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3"><hr color="grey" width="700" size="1"></td>
+            </tr>
+            <tr>    <!--重置按钮通过reset实现，提交按钮通过submit实现-->
+                <td align="center" colspan="3"><input type="reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit"></td>
+            </tr>
+        </tbody>
+        </form>
+        </table>
+    </div>
+
+  <footer>  <!--页脚-->
+    <div class="Fnav">Aiwer Yang<br>联系作者：1929648181@qq.com</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+/*页面字体行高25px*/
+body{ 
+    line-height: 25px;
+}
+/*题目：居中*/
+.inner{
+    margin: 0 350px 0 350px;
+}
+  h2{
+      color: rgb(0, 0, 0);
+      font-family: "黑体";
+      background-color: rgb(255, 255, 255);
+      margin: 20px 100px 20px 100px;
+      text-align: center;
+  }
+/*小标题：右端对齐*/
+.slogan{
+    font-family: '等线';
+    font-size: large;
+    text-align: right;
+    margin:20px;
+}
+  
+/*第一个区域：背景图位于左下方，文本首行缩进25px*/
+#piano{
+    margin: 100px;
+    padding: 0;
+    height: 850px;
+    border: white dotted 3px;
+    background-image: url('../img/zhuangshi11.gif') ;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+  #piano video{
+    width: 300px;
+    height: 100%;
+    margin: 10px 30px 10px 30px;
+  }
+  #piano p{
+    margin: 0 50px 0 50px;
+    text-indent: 25px;
+  }
+/*第二个区域：背景图片位于右下方，文本首行缩进25px*/
+#draw{
+    margin: 100px;
+    padding: 0;
+    height: 930px;
+    border: white dotted 3px;
+    background-image: url('../img/zhuangshi2.gif') ;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+  #draw img{
+    width: 300px;
+    height: 300px;
+    border: white solid 9px;
+    margin: 10px;
+    box-shadow: 4px 4px 2px #4b4a4a;
+  }
+  #draw p{
+  margin: 0 50px 0 50px;
+  text-indent: 25px;
+  }
+/*第三个区域：背景图片位于左下方，文本首行缩进25px*/
+#write{
+    margin: 100px;
+    padding: 0;
+    height: 610px;
+    border: white dotted 3px;
+    background-image: url('../img/zhuangshi3.gif') ;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+  #write img{
+    width: 300px;
+    height: 300px;
+    border: white solid 9px;
+    margin: 10px;
+    box-shadow: 5px 5px 2px #4b4a4a;
+  }
+  #write p{
+    margin: 0 50px 0 50px;
+    text-indent: 25px;
+  }
+/*第四个区域：背景图片位于右下方，文本首行缩进25px*/
+#zhijia{
+      margin: 100px;
+      padding: 0;
+      height: 980px;
+      border: white dotted 3px;
+      background-image: url('../img/zhuangshi4.gif') ;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+}
+  #zhijia img{
+      width: 300px;
+      height: 300px;
+      border: white solid 9px;
+      margin: 10px;
+      box-shadow: 5px 5px 2px #4b4a4a;
+  }
+  #zhijia p{
+    margin: 0 50px 0 50px;
+    text-indent: 25px;
+  }

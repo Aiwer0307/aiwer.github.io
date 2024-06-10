@@ -1,0 +1,102 @@
+img{
+    width: 150px;
+    height: auto;
+    margin: 10px 10px;
+    text-shadow: 4px 4px 2px #4b4a4a;
+}
+p{
+    font-family: '楷体';
+    text-indent: 25px;
+    text-align: center;
+}
+h4{
+    font-family: '楷体';
+    text-indent: 25px;
+    text-align: center;
+}
+
+/*第一个区域：图片左浮动，文字右浮动*/
+#one{
+    height: 650px;
+}
+.pictur1{
+    background: rgba(255, 255, 255, 0.14) ;
+    width: 680px;
+    height: 450px;
+    margin: 100px 0px 10px 100px;
+    float: left;
+}
+.txt1{
+    width: 500px;
+    margin-top: 200px;
+    margin-right: 100px;
+    float: right;
+}
+/*第二个区域：图片右浮动，文字左浮动*/
+#tow{
+    height: 650px;
+}
+.pictur2{
+    background: rgba(255, 255, 255, 0.14) ;
+    width: 680px;
+    height: 450px;
+    margin: 50px 100px 10px 0px;
+    float: right;
+}
+.txt2{
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+}
+/*第三个区域：图片左浮动，文字右浮动*/
+#three{
+    height: 700px;
+}
+.pictur3{
+    background: rgba(255, 255, 255, 0.14) ;
+    width: 680px;
+    height: 450px;
+    margin:50px 0px 10px 100px;
+    float: left;
+}
+.txt3{
+    width: 450px;
+    margin-top: 0px;
+    margin-right: 100px;
+    float: right;
+}
+/*第四个区域：图片右浮动，文字左浮动*/
+#four{
+    height: 700px;
+}
+.pictur4{
+    background: rgba(255, 255, 255, 0.14) ;
+    width: 680px;
+    height: 430px;
+    margin: 100px 100px 10px 0px;
+    float: right;
+}
+.txt4{
+    width: 450px;
+    margin-top: 0px;
+    margin-left: 100px;
+    float: left;
+}
+/*第五个区域：图片左浮动，文字右浮动*/
+#five{
+    height: 500px;
+}
+.pictur5{
+    background: rgba(255, 255, 255, 0.14) ;
+    width: 680px;
+    height: 450px;
+    margin: 50px 0px 0px 100px;
+    float: left;
+}
+.txt5{
+    width: 450px;
+    margin-top: 90px;
+    margin-right: 100px;
+    float: right;
+}
