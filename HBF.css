@@ -1,0 +1,91 @@
+body{
+	width: 100%;
+	flex: 1;
+	z-index: 100px;
+	background-image: url('./img/background.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	color: white;
+	margin: 0;
+  }
+  
+/*页眉：包含子页面区域和图片区域*/
+header {
+	background:rgba(0, 0, 0, 0.2);
+	margin: 0;
+    padding: 0;
+    height: 100px;
+}
+header .Hlogo {								/*图片区域：左浮动*/
+	float: left;
+	height: 90px;
+	width: auto;
+	margin: 10px;
+}
+header .Hnav {								/*子页面区域：右浮动，文字居中，行高90px*/
+	float: right;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+}
+header .Hnav a {
+	padding: 20px 40px 20px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	color: white;
+}
+.box1{										/*第一个子页面*/
+    height: 100px;
+    transition: all 2s;
+    float: right;
+}
+.box1:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    transform: scale(1,1);
+}
+.box2{										/*第二个子页面*/
+    height: 100px;
+    transition: all 2s;
+    float: right;
+}
+.box2:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    transform: scale(1,1);
+}
+.box3{										/*第三个子页面*/
+    height: 100px;
+    transition: all 2s;
+    float: right;
+}
+.box3:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    transform: scale(1,1);
+}
+.box4{										/*第四个子页面*/
+    height: 100px;
+    transition: all 2s;
+    float: right;
+}
+.box4:hover{
+    background-color: rgb(255, 255, 255, 0.2);
+    transform: scale(1,1);
+}
+
+/*页脚：文字居中，行高1.5倍，字间距3px，有阴影*/
+footer {
+	margin: 0;
+	padding: 0;
+	height: 100px;
+}
+footer .Fnav{
+	margin-top: 100px;
+	float: center;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 150%;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 2px #000000;
+}
