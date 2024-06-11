@@ -23,7 +23,7 @@ audio{
 }
 /*主内容：包含图片轮播区域和文本区域*/
 #main{
-    height: 440px;
+    height: 500px;
     overflow: auto;
 }
 
