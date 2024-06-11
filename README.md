@@ -2,7 +2,7 @@
 
 访问地址（适配于chrome和联想浏览器，其他浏览器通过ctrl+滚动鼠标滑轮调整页面）： https://aiwer0307.github.io/aiwer.github.io/
 
-一共五个网页，包括一个主页面index.html，和四个子页面food.html、hobby.html、photos.html和jianli.html。子页面位于同一个文件夹下，主页面和HBF.css位于父文件夹下，每个页面都有对应的.css文件。
+一共五个网页，包括一个主页面index.html，和四个子页面food.html、hobby.html、photos.html和jianli.html。子页面位于同一个文件夹下，包括.html和.css文件，主页面和HBF.css位于父文件夹下。为避免缩放页面导致错位等问题的出现，每个.css文件都设置了“overflow: auto;”，确保当页面过小时，浏览器会显示滚动条以便查看。
 
 (1)HBF.css
 HBF.css用于统一页眉、整体内容和页脚，确保所有页面协调一致。
