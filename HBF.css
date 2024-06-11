@@ -13,8 +13,8 @@ body{
 header {
 	background:rgba(0, 0, 0, 0.2);
 	margin: 0;
-    padding: 0;
-    height: 100px;
+    	padding: 0;
+    	height: 100px;
 }
 header .Hlogo {								/*图片区域：左浮动*/
 	float: left;
