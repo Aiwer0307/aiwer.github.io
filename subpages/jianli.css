@@ -13,7 +13,8 @@ img{
     height: 200px;
 }
 .main{
-    margin: 50px 260px;
+    margin: 50px 260px;x
+    overflow: auto;
 }
 /*超链接：右浮动*/
 #Hnav a{
